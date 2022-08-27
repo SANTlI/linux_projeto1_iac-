@@ -7,10 +7,10 @@ Com a IaC, são criados arquivos de configuração que incluem as especificaçõ
 ## Controle de versão
 O controle de versão é uma parte importante da IaC. Os arquivos de configuração devem pertencer à fonte como qualquer outro código-fonte de software. Ao implantar a infraestrutura como código, também é possível separá-la em módulos, que podem ser combinados de diferentes maneiras por meio da automação.
 
-##Principal benefício
+## Principal benefício
 Ao automatizar o provisionamento da infraestrutura com a IaC, os desenvolvedores não precisam provisionar e gerenciar manualmente servidores, sistemas operacionais, armazenamento e outros componentes de infraestrutura sempre que criam ou implantam uma aplicação.
 
-##Definições
+## Definições
 - Excluir diretórios, arquivos, grupos e usuários criados anteriormente;
 - Todo provisionamento deve ser feito em um arquivo do tipo Bash Script;
 - O dono de todos os diretórios criados será o usuário root;
